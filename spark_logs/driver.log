@@ -1,0 +1,208 @@
+2018-02-23 14:29:36 INFO  Master:2568 â Started daemon with process name: 1@master
+2018-02-23 14:29:36 INFO  SignalUtils:54 â Registered signal handler for TERM
+2018-02-23 14:29:36 INFO  SignalUtils:54 â Registered signal handler for HUP
+2018-02-23 14:29:36 INFO  SignalUtils:54 â Registered signal handler for INT
+2018-02-23 14:29:37 WARN  NativeCodeLoader:62 â Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-02-23 14:29:37 INFO  SecurityManager:54 â Changing view acls to: root
+2018-02-23 14:29:37 INFO  SecurityManager:54 â Changing modify acls to: root
+2018-02-23 14:29:37 INFO  SecurityManager:54 â Changing view acls groups to: 
+2018-02-23 14:29:37 INFO  SecurityManager:54 â Changing modify acls groups to: 
+2018-02-23 14:29:37 INFO  SecurityManager:54 â SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2018-02-23 14:29:37 INFO  Utils:54 â Successfully started service 'sparkMaster' on port 7077.
+2018-02-23 14:29:38 INFO  Master:54 â Starting Spark master at spark://master:7077
+2018-02-23 14:29:38 INFO  Master:54 â Running Spark version 2.2.1
+2018-02-23 14:29:38 INFO  Utils:54 â Successfully started service 'MasterUI' on port 8080.
+2018-02-23 14:29:38 INFO  MasterWebUI:54 â Bound MasterWebUI to 0.0.0.0, and started at http://localhost:8080
+2018-02-23 14:29:38 INFO  Utils:54 â Successfully started service on port 6066.
+2018-02-23 14:29:38 INFO  StandaloneRestServer:54 â Started REST server for submitting applications on port 6066
+2018-02-23 14:29:38 INFO  Master:54 â I have been elected leader! New state: ALIVE
+2018-02-23 14:29:45 INFO  Master:54 â Registering worker 10.0.0.8:8881 with 2 cores, 1024.0 MB RAM
+2018-02-23 14:29:46 INFO  Master:54 â Registering worker 10.0.0.9:8881 with 2 cores, 1024.0 MB RAM
+2018-02-23 14:32:55 INFO  RestSubmissionClient:54 â Submitting a request to launch an application in spark://master:7077.
+2018-02-23 14:33:06 WARN  RestSubmissionClient:66 â Unable to connect to server spark://master:7077.
+2018-02-23 14:33:07 WARN  NativeCodeLoader:62 â Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-02-23 14:33:08 INFO  Master:54 â Driver submitted org.apache.spark.deploy.worker.DriverWrapper
+2018-02-23 14:33:08 INFO  Master:54 â Launching driver driver-20180223143308-0000 on worker worker-20180223142944-10.0.0.8-8881
+2018-02-23 14:33:12 INFO  Master:54 â Registering app Spark Pi
+2018-02-23 14:33:12 INFO  Master:54 â Registered app Spark Pi with ID app-20180223143312-0000
+2018-02-23 14:33:12 INFO  Master:54 â Launching executor app-20180223143312-0000/0 on worker worker-20180223142945-10.0.0.9-8881
+2018-02-23 14:33:13 INFO  Master:54 â 10.0.0.6:48962 got disassociated, removing it.
+2018-02-23 14:33:13 INFO  Master:54 â 10.0.0.6:42636 got disassociated, removing it.
+2018-02-23 14:33:13 INFO  Master:54 â 10.0.0.6:48956 got disassociated, removing it.
+2018-02-23 14:33:23 INFO  Master:54 â Received unregister request from application app-20180223143312-0000
+2018-02-23 14:33:23 INFO  Master:54 â Removing app app-20180223143312-0000
+2018-02-23 14:33:23 WARN  Master:66 â Got status update for unknown executor app-20180223143312-0000/0
+2018-02-23 14:33:23 INFO  Master:54 â 10.0.0.8:58004 got disassociated, removing it.
+2018-02-23 14:33:23 INFO  Master:54 â 10.0.0.8:7001 got disassociated, removing it.
+2018-02-23 14:33:23 INFO  Master:54 â Removing driver: driver-20180223143308-0000
+2018-02-24 00:27:06 WARN  HttpParser:1799 â Illegal character 0x5 in state=START for buffer HeapByteBuffer@50b2615e[p=1,l=4,c=8192,r=3]={\x05<<<\x02\x00\x02>>>/1.1 200 OK\r\nDate...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-02-24 00:27:06 WARN  HttpParser:1415 â bad HTTP parsed: 400 Illegal character 0x5 for HttpChannelOverHttp@627b2480{r=0,c=false,a=IDLE,uri=null}
+2018-02-24 01:27:52 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@4edcaa73{r=0,c=false,a=IDLE,uri=null}
+2018-02-24 01:27:52 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@1904064c{r=0,c=false,a=IDLE,uri=null}
+2018-02-24 01:27:55 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@72de8a5d{r=0,c=false,a=IDLE,uri=null}
+2018-02-24 01:27:55 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@79e288fd{r=0,c=false,a=IDLE,uri=null}
+2018-02-24 01:27:58 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@4bcf5cec{r=0,c=false,a=IDLE,uri=null}
+2018-02-24 01:27:59 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@6cb63dd0{r=0,c=false,a=IDLE,uri=null}
+2018-02-24 01:27:59 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7f68ed7f{r=0,c=false,a=IDLE,uri=null}
+2018-02-24 01:28:20 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@12657e3{r=0,c=false,a=IDLE,uri=null}
+2018-02-24 10:38:04 WARN  HttpParser:1799 â Illegal character 0x10 in state=START for buffer HeapByteBuffer@6b43685e[p=1,l=162,c=8192,r=161]={\x10<<<\x01\x00\xA2\x00\x00\x01\x00\x9a\x00\x00\x00\x01\x00\x00q\x00\x00...\x001\x001\x005\x00O\x00D\x00B\x00C\x00>>>st: 139.198.177.1...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-02-24 10:38:04 WARN  HttpParser:1415 â bad HTTP parsed: 400 Illegal character 0x10 for HttpChannelOverHttp@6dc98b09{r=0,c=false,a=IDLE,uri=null}
+2018-02-24 10:38:04 WARN  HttpParser:1799 â Illegal character 0x10 in state=START for buffer HeapByteBuffer@50b2615e[p=1,l=162,c=8192,r=161]={\x10<<<\x01\x00\xA2\x00\x00\x01\x00\x9a\x00\x00\x00\x01\x00\x00q\x00\x00...\x001\x001\x005\x00O\x00D\x00B\x00C\x00>>>SAMEORIGIN\r\nVary:...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-02-24 10:38:04 WARN  HttpParser:1415 â bad HTTP parsed: 400 Illegal character 0x10 for HttpChannelOverHttp@36fb8b82{r=0,c=false,a=IDLE,uri=null}
+2018-02-24 10:38:04 WARN  HttpParser:1799 â Illegal character 0x10 in state=START for buffer HeapByteBuffer@6b43685e[p=1,l=162,c=8192,r=161]={\x10<<<\x01\x00\xA2\x00\x00\x01\x00\x9a\x00\x00\x00\x01\x00\x00q\x00\x00...\x001\x001\x005\x00O\x00D\x00B\x00C\x00>>>st: 139.198.177.1...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-02-24 10:38:04 WARN  HttpParser:1415 â bad HTTP parsed: 400 Illegal character 0x10 for HttpChannelOverHttp@59bcaf92{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:07 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@214b8f99{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:08 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@31691004{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:20 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5ce2b8c1{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:24 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@30938897{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:33 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@606fee7a{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:34 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@31e2f9c1{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:35 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@d15f984{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:36 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@ef6d51{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:38 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5d07ce01{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:39 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@2c9015c6{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:40 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7316ab50{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:51 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@55be822f{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:53 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@1f5b6fba{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 06:49:54 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@6576e85d{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 09:29:02 WARN  HttpParser:1799 â Illegal character 0x10 in state=START for buffer HeapByteBuffer@50b2615e[p=1,l=162,c=8192,r=161]={\x10<<<\x01\x00\xA2\x00\x00\x01\x00\x9a\x00\x00\x00\x01\x00\x00q\x00\x00...\x001\x001\x005\x00O\x00D\x00B\x00C\x00>>>ication/xhtml+xml...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-02-25 09:29:02 WARN  HttpParser:1415 â bad HTTP parsed: 400 Illegal character 0x10 for HttpChannelOverHttp@65c2b409{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 09:29:02 WARN  HttpParser:1799 â Illegal character 0x10 in state=START for buffer HeapByteBuffer@6b43685e[p=1,l=162,c=8192,r=161]={\x10<<<\x01\x00\xA2\x00\x00\x01\x00\x9a\x00\x00\x00\x01\x00\x00q\x00\x00...\x001\x001\x005\x00O\x00D\x00B\x00C\x00>>>SAMEORIGIN\r\nVary:...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-02-25 09:29:02 WARN  HttpParser:1415 â bad HTTP parsed: 400 Illegal character 0x10 for HttpChannelOverHttp@6bf7f3{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 09:29:05 WARN  HttpParser:1799 â Illegal character 0x10 in state=START for buffer HeapByteBuffer@50b2615e[p=1,l=162,c=8192,r=161]={\x10<<<\x01\x00\xA2\x00\x00\x01\x00\x9a\x00\x00\x00\x01\x00\x00q\x00\x00...\x001\x001\x005\x00O\x00D\x00B\x00C\x00>>>ication/xhtml+xml...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-02-25 09:29:05 WARN  HttpParser:1415 â bad HTTP parsed: 400 Illegal character 0x10 for HttpChannelOverHttp@197e86a3{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 10:26:46 WARN  HttpParser:1799 â Illegal character 0x16 in state=START for buffer HeapByteBuffer@50b2615e[p=1,l=95,c=8192,r=94]={\x16<<<\x03\x01\x00Z\x01\x00\x00V\x03\x01Z\x92\x8fd0\xD8;...\n\x00\x06\x00\x04\x00\x17\x00\x18\x00\x0b\x00\x02\x01\x00>>>che-Control: no-c...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-02-25 10:26:46 WARN  HttpParser:1415 â bad HTTP parsed: 400 Illegal character 0x16 for HttpChannelOverHttp@2b76678c{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 10:26:46 WARN  HttpParser:1799 â Illegal character 0x16 in state=START for buffer HeapByteBuffer@6b43685e[p=1,l=95,c=8192,r=94]={\x16<<<\x03\x01\x00Z\x01\x00\x00V\x03\x01Z\x92\x8fd\xFa\xE9\xC3...\n\x00\x06\x00\x04\x00\x17\x00\x18\x00\x0b\x00\x02\x01\x00>>>: 65\r\nConnection:...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-02-25 10:26:46 WARN  HttpParser:1415 â bad HTTP parsed: 400 Illegal character 0x16 for HttpChannelOverHttp@6eceec6b{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:04 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@32491674{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:05 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@35591e1d{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:06 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@378e52b8{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:07 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@11ae1acd{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:09 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@41ea6760{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:10 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@38299bc3{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:11 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@6c158776{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:12 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@556b64a0{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:14 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@8f9c15b{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:15 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5b605899{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:16 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@560f1c44{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:21 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@29dafc90{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:23 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7e4045c7{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:24 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7c50348c{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:29 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@45ed2530{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:30 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@2267813{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:31 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7865797d{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:32 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5b1ecc42{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:32 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@1dd5a9b7{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:33 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@77de0c1a{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:34 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@9bcc7a0{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:35 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@939ce63{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:36 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7b3d594a{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:38 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@47768b47{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:42 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@2e76a030{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:45 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@3cea65b9{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:46 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@399c6fdf{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:50 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@3de8de39{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:51 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@27417f1a{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:52 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@4844f9a5{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:53 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@594414dc{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:53 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@2e9d5638{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:54 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@2fc40a96{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:55 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7f76412b{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:56 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5b3cec00{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:57 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@38e519fe{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:33:59 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@557ee03{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:00 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@33ce15e2{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:01 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7b2af64f{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:02 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@64ebfd2d{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:03 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5406b199{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:06 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@37d06294{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:07 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@56195bb{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:08 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@36a24780{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:08 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@765af8d{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:11 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7174e93c{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:11 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@6bc43aa5{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:12 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@64966049{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:13 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@3f88fe83{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:14 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5474650a{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:16 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5a5c2749{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:17 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@706cf6ca{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:18 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@6d1c9748{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:19 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@a291c6b{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:21 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7f366f9{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:22 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7e41f9d7{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:22 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@23d95789{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:23 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5eac6152{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:24 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5b1be7b8{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:25 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@451cff39{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:30 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@75281538{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:31 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@1fdd0343{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:32 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@888cbbf{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:33 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@3ca8a64c{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:34 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@13d174d9{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:36 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@2807214b{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:37 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@1c7cb9fd{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:40 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@b7d90ee{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:42 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@35ee0ba4{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:43 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@17390371{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:44 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@2a695455{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:48 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5a08fd9b{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:48 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@4b257b20{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:49 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@1c011891{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:51 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5de8588c{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:52 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@6394621f{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:53 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@684b5513{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:54 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@4c33d376{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:56 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@73444253{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:57 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@15f4f26b{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:34:59 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@18fdf705{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:00 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@708456f7{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:01 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@57738793{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:02 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@a4b01f5{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:03 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@2aa829db{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:04 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@28976bdb{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:05 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@b1df3e4{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:06 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@61461696{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:06 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@6c7725b3{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:07 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@40bd96f{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:08 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@72b34755{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:09 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7eb5e186{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:10 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@40e0c72{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:11 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@30fa50ef{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:12 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@b526a4a{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:13 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@52dc6666{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:14 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@a476197{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:15 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@1dc19376{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:16 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@61668cff{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:18 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@5707edc5{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:19 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@3763878d{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:20 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@6278c69c{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:21 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@58a01a10{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:22 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@30ad2c02{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:23 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@190aef5b{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:26 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@6cd6b1f5{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:28 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@3712e185{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:28 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@431c5442{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:29 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@14ecd814{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:36 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@28bf0ace{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:37 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@97d1c99{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:38 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@50dfd668{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:41 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@366943f6{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:42 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@4827d13e{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:42 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@240ae7a{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:43 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@3d49bc77{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:44 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@74492891{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:50 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@22e8eb03{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:52 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@59fdeb{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:54 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@69a1dae{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:55 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@43973861{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:57 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@2aba6055{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 16:35:59 WARN  HttpParser:1415 â bad HTTP parsed: 400 No Host for HttpChannelOverHttp@7ac5c735{r=0,c=false,a=IDLE,uri=null}
+2018-02-25 19:37:27 WARN  HttpParser:1799 â Illegal character 0x16 in state=START for buffer HeapByteBuffer@50b2615e[p=1,l=295,c=8192,r=294]={\x16<<<\x03\x01\x01"\x01\x00\x01\x1e\x03\x03 \x18\xC4\xF8X\xEb\x00...\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2018-02-25 19:37:27 WARN  HttpParser:1415 â bad HTTP parsed: 400 Illegal character 0x16 for HttpChannelOverHttp@6e56436b{r=0,c=false,a=IDLE,uri=null}
+2018-02-26 08:01:17 INFO  Master:54 â 10.0.0.8:57952 got disassociated, removing it.
+2018-02-26 08:01:17 INFO  Master:54 â 10.0.0.8:8881 got disassociated, removing it.
+2018-02-26 08:01:17 INFO  Master:54 â Removing worker worker-20180223142944-10.0.0.8-8881 on 10.0.0.8:8881
+2018-02-26 08:01:20 INFO  Master:54 â 10.0.0.9:60112 got disassociated, removing it.
+2018-02-26 08:01:20 INFO  Master:54 â 10.0.0.9:8881 got disassociated, removing it.
+2018-02-26 08:01:20 INFO  Master:54 â Removing worker worker-20180223142945-10.0.0.9-8881 on 10.0.0.9:8881

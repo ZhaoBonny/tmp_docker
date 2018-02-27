@@ -48,4 +48,4 @@ worker:
     - 8081:8081
   volumes:
     - ./conf/worker:/conf
-    - ./data:/tmp/data
+- ./data:/tmp/data
