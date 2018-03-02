@@ -1,0 +1,224 @@
+2018-03-02 06:31:59 INFO  Master:2568 â Started daemon with process name: 1@master
+2018-03-02 06:31:59 INFO  SignalUtils:54 â Registered signal handler for TERM
+2018-03-02 06:31:59 INFO  SignalUtils:54 â Registered signal handler for HUP
+2018-03-02 06:31:59 INFO  SignalUtils:54 â Registered signal handler for INT
+2018-03-02 06:31:59 WARN  NativeCodeLoader:62 â Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-03-02 06:32:00 INFO  SecurityManager:54 â Changing view acls to: root
+2018-03-02 06:32:00 INFO  SecurityManager:54 â Changing modify acls to: root
+2018-03-02 06:32:00 INFO  SecurityManager:54 â Changing view acls groups to: 
+2018-03-02 06:32:00 INFO  SecurityManager:54 â Changing modify acls groups to: 
+2018-03-02 06:32:00 INFO  SecurityManager:54 â SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2018-03-02 06:32:00 INFO  Utils:54 â Successfully started service 'sparkMaster' on port 7077.
+2018-03-02 06:32:00 INFO  Master:54 â Starting Spark master at spark://master:7077
+2018-03-02 06:32:00 INFO  Master:54 â Running Spark version 2.2.1
+2018-03-02 06:32:00 INFO  log:192 â Logging initialized @2861ms
+2018-03-02 06:32:00 INFO  Server:345 â jetty-9.3.z-SNAPSHOT
+2018-03-02 06:32:00 INFO  Server:403 â Started @2981ms
+2018-03-02 06:32:01 INFO  AbstractConnector:270 â Started ServerConnector@2eb12e3a{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2018-03-02 06:32:01 INFO  Utils:54 â Successfully started service 'MasterUI' on port 8080.
+2018-03-02 06:32:01 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@2b3810ba{/app,null,AVAILABLE,@Spark}
+2018-03-02 06:32:01 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@7f02893d{/app/json,null,AVAILABLE,@Spark}
+2018-03-02 06:32:01 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@41424503{/,null,AVAILABLE,@Spark}
+2018-03-02 06:32:01 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@6f2856c7{/json,null,AVAILABLE,@Spark}
+2018-03-02 06:32:01 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@4dcd1363{/static,null,AVAILABLE,@Spark}
+2018-03-02 06:32:01 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@3d22d036{/app/kill,null,AVAILABLE,@Spark}
+2018-03-02 06:32:01 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@6e7d9793{/driver/kill,null,AVAILABLE,@Spark}
+2018-03-02 06:32:01 INFO  MasterWebUI:54 â Bound MasterWebUI to 0.0.0.0, and started at http://localhost:8080
+2018-03-02 06:32:01 INFO  Server:345 â jetty-9.3.z-SNAPSHOT
+2018-03-02 06:32:01 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@6e902680{/,null,AVAILABLE}
+2018-03-02 06:32:01 INFO  AbstractConnector:270 â Started ServerConnector@25327203{HTTP/1.1,[http/1.1]}{master:6066}
+2018-03-02 06:32:01 INFO  Server:403 â Started @3192ms
+2018-03-02 06:32:01 INFO  Utils:54 â Successfully started service on port 6066.
+2018-03-02 06:32:01 INFO  StandaloneRestServer:54 â Started REST server for submitting applications on port 6066
+2018-03-02 06:32:01 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@52ffed43{/metrics/master/json,null,AVAILABLE,@Spark}
+2018-03-02 06:32:01 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@5d5696b2{/metrics/applications/json,null,AVAILABLE,@Spark}
+2018-03-02 06:32:01 INFO  Master:54 â I have been elected leader! New state: ALIVE
+2018-03-02 06:33:43 INFO  SparkContext:54 â Running Spark version 2.2.1
+2018-03-02 06:33:44 WARN  NativeCodeLoader:62 â Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-03-02 06:33:44 INFO  SparkContext:54 â Submitted application: Spark Pi
+2018-03-02 06:33:44 INFO  SecurityManager:54 â Changing view acls to: root
+2018-03-02 06:33:44 INFO  SecurityManager:54 â Changing modify acls to: root
+2018-03-02 06:33:44 INFO  SecurityManager:54 â Changing view acls groups to: 
+2018-03-02 06:33:44 INFO  SecurityManager:54 â Changing modify acls groups to: 
+2018-03-02 06:33:44 INFO  SecurityManager:54 â SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2018-03-02 06:33:45 INFO  Utils:54 â Successfully started service 'sparkDriver' on port 7001.
+2018-03-02 06:33:45 INFO  SparkEnv:54 â Registering MapOutputTracker
+2018-03-02 06:33:45 INFO  SparkEnv:54 â Registering BlockManagerMaster
+2018-03-02 06:33:45 INFO  BlockManagerMasterEndpoint:54 â Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2018-03-02 06:33:45 INFO  BlockManagerMasterEndpoint:54 â BlockManagerMasterEndpoint up
+2018-03-02 06:33:45 INFO  DiskBlockManager:54 â Created local directory at /tmp/blockmgr-fc661449-6821-428f-b9a9-85d62f95cb38
+2018-03-02 06:33:45 INFO  MemoryStore:54 â MemoryStore started with capacity 413.9 MB
+2018-03-02 06:33:45 INFO  SparkEnv:54 â Registering OutputCommitCoordinator
+2018-03-02 06:33:45 INFO  log:192 â Logging initialized @3373ms
+2018-03-02 06:33:45 INFO  Server:345 â jetty-9.3.z-SNAPSHOT
+2018-03-02 06:33:45 INFO  Server:403 â Started @3563ms
+2018-03-02 06:33:45 INFO  AbstractConnector:270 â Started ServerConnector@4af257fb{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-03-02 06:33:45 INFO  Utils:54 â Successfully started service 'SparkUI' on port 4040.
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@11ee02f8{/jobs,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@4201a617{/jobs/json,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@1bb9aa43{/jobs/job,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@308a6984{/jobs/job/json,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@7a34b7b8{/stages,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@3be8821f{/stages/json,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@3b65e559{/stages/stage,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@1c05a54d{/stages/stage/json,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@5fd9b663{/stages/pool,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@10567255{/stages/pool/json,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@1c4ee95c{/storage,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@5aa360ea{/storage/json,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@e27ba81{/storage/rdd,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@1556f2dd{/storage/rdd/json,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@62577d6{/environment,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@6b5f8707{/environment/json,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@5a12c728{/executors,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@6e5bfdfc{/executors/json,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@71652c98{/executors/threadDump,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@60b85ba1{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@117632cf{/static,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@4837595f{/,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@3b718392{/api,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@7668d560{/jobs/job/kill,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@126be319{/stages/stage/kill,null,AVAILABLE,@Spark}
+2018-03-02 06:33:45 INFO  SparkUI:54 â Bound SparkUI to 0.0.0.0, and started at http://localhost:4040
+2018-03-02 06:33:46 INFO  SparkContext:54 â Added JAR file:/usr/spark-2.2.1/./examples/jars/spark-examples_2.11-2.2.1.jar at spark://10.0.0.15:7001/jars/spark-examples_2.11-2.2.1.jar with timestamp 1519972426052
+2018-03-02 06:33:46 INFO  StandaloneAppClient$ClientEndpoint:54 â Connecting to master spark://master:7077...
+2018-03-02 06:33:46 INFO  TransportClientFactory:254 â Successfully created connection to master/10.0.0.15:7077 after 65 ms (0 ms spent in bootstraps)
+2018-03-02 06:33:46 INFO  Master:54 â Registering app Spark Pi
+2018-03-02 06:33:46 INFO  Master:54 â Registered app Spark Pi with ID app-20180302063346-0000
+2018-03-02 06:33:46 INFO  StandaloneSchedulerBackend:54 â Connected to Spark cluster with app ID app-20180302063346-0000
+2018-03-02 06:33:46 INFO  Utils:54 â Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 7005.
+2018-03-02 06:33:46 INFO  NettyBlockTransferService:54 â Server created on 10.0.0.15:7005
+2018-03-02 06:33:46 INFO  BlockManager:54 â Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2018-03-02 06:33:46 INFO  BlockManagerMaster:54 â Registering BlockManager BlockManagerId(driver, 10.0.0.15, 7005, None)
+2018-03-02 06:33:46 INFO  BlockManagerMasterEndpoint:54 â Registering block manager 10.0.0.15:7005 with 413.9 MB RAM, BlockManagerId(driver, 10.0.0.15, 7005, None)
+2018-03-02 06:33:46 INFO  BlockManagerMaster:54 â Registered BlockManager BlockManagerId(driver, 10.0.0.15, 7005, None)
+2018-03-02 06:33:46 INFO  BlockManager:54 â Initialized BlockManager: BlockManagerId(driver, 10.0.0.15, 7005, None)
+2018-03-02 06:33:47 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@5b5c0057{/metrics/json,null,AVAILABLE,@Spark}
+2018-03-02 06:33:47 INFO  StandaloneSchedulerBackend:54 â SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+2018-03-02 06:33:47 INFO  SparkContext:54 â Starting job: reduce at SparkPi.scala:38
+2018-03-02 06:33:47 INFO  DAGScheduler:54 â Got job 0 (reduce at SparkPi.scala:38) with 10 output partitions
+2018-03-02 06:33:47 INFO  DAGScheduler:54 â Final stage: ResultStage 0 (reduce at SparkPi.scala:38)
+2018-03-02 06:33:47 INFO  DAGScheduler:54 â Parents of final stage: List()
+2018-03-02 06:33:47 INFO  DAGScheduler:54 â Missing parents: List()
+2018-03-02 06:33:47 INFO  DAGScheduler:54 â Submitting ResultStage 0 (MapPartitionsRDD[1] at map at SparkPi.scala:34), which has no missing parents
+2018-03-02 06:33:48 INFO  MemoryStore:54 â Block broadcast_0 stored as values in memory (estimated size 1832.0 B, free 413.9 MB)
+2018-03-02 06:33:48 INFO  MemoryStore:54 â Block broadcast_0_piece0 stored as bytes in memory (estimated size 1172.0 B, free 413.9 MB)
+2018-03-02 06:33:48 INFO  BlockManagerInfo:54 â Added broadcast_0_piece0 in memory on 10.0.0.15:7005 (size: 1172.0 B, free: 413.9 MB)
+2018-03-02 06:33:48 INFO  SparkContext:54 â Created broadcast 0 from broadcast at DAGScheduler.scala:1006
+2018-03-02 06:33:48 INFO  DAGScheduler:54 â Submitting 10 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at map at SparkPi.scala:34) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
+2018-03-02 06:33:48 INFO  TaskSchedulerImpl:54 â Adding task set 0.0 with 10 tasks
+2018-03-02 06:34:03 WARN  TaskSchedulerImpl:66 â Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+2018-03-02 06:34:18 WARN  TaskSchedulerImpl:66 â Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+2018-03-02 06:34:26 INFO  SparkContext:54 â Invoking stop() from shutdown hook
+2018-03-02 06:34:26 INFO  AbstractConnector:310 â Stopped Spark@4af257fb{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-03-02 06:34:26 INFO  SparkUI:54 â Stopped Spark web UI at http://localhost:4040
+2018-03-02 06:34:26 INFO  DAGScheduler:54 â Job 0 failed: reduce at SparkPi.scala:38, took 38.661377 s
+2018-03-02 06:34:26 INFO  DAGScheduler:54 â ResultStage 0 (reduce at SparkPi.scala:38) failed in 38.126 s due to Stage cancelled because SparkContext was shut down
+2018-03-02 06:34:26 INFO  StandaloneSchedulerBackend:54 â Shutting down all executors
+2018-03-02 06:34:26 INFO  CoarseGrainedSchedulerBackend$DriverEndpoint:54 â Asking each executor to shut down
+2018-03-02 06:34:26 INFO  Master:54 â Received unregister request from application app-20180302063346-0000
+2018-03-02 06:34:26 INFO  Master:54 â Removing app app-20180302063346-0000
+2018-03-02 06:34:26 INFO  MapOutputTrackerMasterEndpoint:54 â MapOutputTrackerMasterEndpoint stopped!
+2018-03-02 06:34:26 INFO  MemoryStore:54 â MemoryStore cleared
+2018-03-02 06:34:26 INFO  BlockManager:54 â BlockManager stopped
+2018-03-02 06:34:26 INFO  BlockManagerMaster:54 â BlockManagerMaster stopped
+2018-03-02 06:34:26 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 â OutputCommitCoordinator stopped!
+2018-03-02 06:34:26 INFO  Master:54 â 10.0.0.15:43370 got disassociated, removing it.
+2018-03-02 06:34:26 INFO  Master:54 â 10.0.0.15:7001 got disassociated, removing it.
+2018-03-02 06:34:26 INFO  SparkContext:54 â Successfully stopped SparkContext
+2018-03-02 06:34:26 INFO  ShutdownHookManager:54 â Shutdown hook called
+2018-03-02 06:34:26 INFO  ShutdownHookManager:54 â Deleting directory /tmp/spark-d668c8f2-5e8f-458e-979e-8645b6f7a056
+2018-03-02 06:34:39 INFO  SparkContext:54 â Running Spark version 2.2.1
+2018-03-02 06:34:39 WARN  NativeCodeLoader:62 â Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-03-02 06:34:40 INFO  SparkContext:54 â Submitted application: Spark Pi
+2018-03-02 06:34:40 INFO  SecurityManager:54 â Changing view acls to: root
+2018-03-02 06:34:40 INFO  SecurityManager:54 â Changing modify acls to: root
+2018-03-02 06:34:40 INFO  SecurityManager:54 â Changing view acls groups to: 
+2018-03-02 06:34:40 INFO  SecurityManager:54 â Changing modify acls groups to: 
+2018-03-02 06:34:40 INFO  SecurityManager:54 â SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2018-03-02 06:34:40 INFO  Utils:54 â Successfully started service 'sparkDriver' on port 7001.
+2018-03-02 06:34:40 INFO  SparkEnv:54 â Registering MapOutputTracker
+2018-03-02 06:34:40 INFO  SparkEnv:54 â Registering BlockManagerMaster
+2018-03-02 06:34:40 INFO  BlockManagerMasterEndpoint:54 â Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2018-03-02 06:34:40 INFO  BlockManagerMasterEndpoint:54 â BlockManagerMasterEndpoint up
+2018-03-02 06:34:40 INFO  DiskBlockManager:54 â Created local directory at /tmp/blockmgr-42227597-7b71-4798-9631-472e2959d228
+2018-03-02 06:34:40 INFO  MemoryStore:54 â MemoryStore started with capacity 413.9 MB
+2018-03-02 06:34:41 INFO  SparkEnv:54 â Registering OutputCommitCoordinator
+2018-03-02 06:34:41 INFO  log:192 â Logging initialized @3507ms
+2018-03-02 06:34:41 INFO  Server:345 â jetty-9.3.z-SNAPSHOT
+2018-03-02 06:34:41 INFO  Server:403 â Started @3668ms
+2018-03-02 06:34:41 INFO  AbstractConnector:270 â Started ServerConnector@3fade846{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-03-02 06:34:41 INFO  Utils:54 â Successfully started service 'SparkUI' on port 4040.
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@11ee02f8{/jobs,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@4201a617{/jobs/json,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@1bb9aa43{/jobs/job,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@308a6984{/jobs/job/json,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@7a34b7b8{/stages,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@3be8821f{/stages/json,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@3b65e559{/stages/stage,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@1c05a54d{/stages/stage/json,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@5fd9b663{/stages/pool,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@10567255{/stages/pool/json,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@1c4ee95c{/storage,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@5aa360ea{/storage/json,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@e27ba81{/storage/rdd,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@1556f2dd{/storage/rdd/json,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@62577d6{/environment,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@6b5f8707{/environment/json,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@5a12c728{/executors,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@6e5bfdfc{/executors/json,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@71652c98{/executors/threadDump,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@60b85ba1{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@117632cf{/static,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@4837595f{/,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@3b718392{/api,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@7668d560{/jobs/job/kill,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@126be319{/stages/stage/kill,null,AVAILABLE,@Spark}
+2018-03-02 06:34:41 INFO  SparkUI:54 â Bound SparkUI to 0.0.0.0, and started at http://localhost:4040
+2018-03-02 06:34:41 INFO  SparkContext:54 â Added JAR file:/usr/spark-2.2.1/./examples/jars/spark-examples_2.11-2.2.1.jar at spark://10.0.0.15:7001/jars/spark-examples_2.11-2.2.1.jar with timestamp 1519972481590
+2018-03-02 06:34:41 INFO  StandaloneAppClient$ClientEndpoint:54 â Connecting to master spark://master:7077...
+2018-03-02 06:34:41 INFO  TransportClientFactory:254 â Successfully created connection to master/10.0.0.15:7077 after 59 ms (0 ms spent in bootstraps)
+2018-03-02 06:34:42 INFO  Master:54 â Registering app Spark Pi
+2018-03-02 06:34:42 INFO  Master:54 â Registered app Spark Pi with ID app-20180302063442-0001
+2018-03-02 06:34:42 INFO  StandaloneSchedulerBackend:54 â Connected to Spark cluster with app ID app-20180302063442-0001
+2018-03-02 06:34:42 INFO  Utils:54 â Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 7005.
+2018-03-02 06:34:42 INFO  NettyBlockTransferService:54 â Server created on 10.0.0.15:7005
+2018-03-02 06:34:42 INFO  BlockManager:54 â Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2018-03-02 06:34:42 INFO  BlockManagerMaster:54 â Registering BlockManager BlockManagerId(driver, 10.0.0.15, 7005, None)
+2018-03-02 06:34:42 INFO  BlockManagerMasterEndpoint:54 â Registering block manager 10.0.0.15:7005 with 413.9 MB RAM, BlockManagerId(driver, 10.0.0.15, 7005, None)
+2018-03-02 06:34:42 INFO  BlockManagerMaster:54 â Registered BlockManager BlockManagerId(driver, 10.0.0.15, 7005, None)
+2018-03-02 06:34:42 INFO  BlockManager:54 â Initialized BlockManager: BlockManagerId(driver, 10.0.0.15, 7005, None)
+2018-03-02 06:34:42 INFO  ContextHandler:781 â Started o.s.j.s.ServletContextHandler@5b5c0057{/metrics/json,null,AVAILABLE,@Spark}
+2018-03-02 06:34:42 INFO  StandaloneSchedulerBackend:54 â SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+2018-03-02 06:34:43 INFO  SparkContext:54 â Starting job: reduce at SparkPi.scala:38
+2018-03-02 06:34:43 INFO  DAGScheduler:54 â Got job 0 (reduce at SparkPi.scala:38) with 10 output partitions
+2018-03-02 06:34:43 INFO  DAGScheduler:54 â Final stage: ResultStage 0 (reduce at SparkPi.scala:38)
+2018-03-02 06:34:43 INFO  DAGScheduler:54 â Parents of final stage: List()
+2018-03-02 06:34:43 INFO  DAGScheduler:54 â Missing parents: List()
+2018-03-02 06:34:43 INFO  DAGScheduler:54 â Submitting ResultStage 0 (MapPartitionsRDD[1] at map at SparkPi.scala:34), which has no missing parents
+2018-03-02 06:34:43 INFO  MemoryStore:54 â Block broadcast_0 stored as values in memory (estimated size 1832.0 B, free 413.9 MB)
+2018-03-02 06:34:43 INFO  MemoryStore:54 â Block broadcast_0_piece0 stored as bytes in memory (estimated size 1172.0 B, free 413.9 MB)
+2018-03-02 06:34:43 INFO  BlockManagerInfo:54 â Added broadcast_0_piece0 in memory on 10.0.0.15:7005 (size: 1172.0 B, free: 413.9 MB)
+2018-03-02 06:34:43 INFO  SparkContext:54 â Created broadcast 0 from broadcast at DAGScheduler.scala:1006
+2018-03-02 06:34:43 INFO  DAGScheduler:54 â Submitting 10 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at map at SparkPi.scala:34) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
+2018-03-02 06:34:43 INFO  TaskSchedulerImpl:54 â Adding task set 0.0 with 10 tasks
+2018-03-02 06:34:50 INFO  SparkContext:54 â Invoking stop() from shutdown hook
+2018-03-02 06:34:50 INFO  AbstractConnector:310 â Stopped Spark@3fade846{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-03-02 06:34:50 INFO  SparkUI:54 â Stopped Spark web UI at http://localhost:4040
+2018-03-02 06:34:50 INFO  DAGScheduler:54 â Job 0 failed: reduce at SparkPi.scala:38, took 7.611601 s
+2018-03-02 06:34:50 INFO  DAGScheduler:54 â ResultStage 0 (reduce at SparkPi.scala:38) failed in 6.997 s due to Stage cancelled because SparkContext was shut down
+2018-03-02 06:34:50 INFO  StandaloneSchedulerBackend:54 â Shutting down all executors
+2018-03-02 06:34:50 INFO  CoarseGrainedSchedulerBackend$DriverEndpoint:54 â Asking each executor to shut down
+2018-03-02 06:34:50 INFO  Master:54 â Received unregister request from application app-20180302063442-0001
+2018-03-02 06:34:50 INFO  Master:54 â Removing app app-20180302063442-0001
+2018-03-02 06:34:50 INFO  MapOutputTrackerMasterEndpoint:54 â MapOutputTrackerMasterEndpoint stopped!
+2018-03-02 06:34:50 INFO  MemoryStore:54 â MemoryStore cleared
+2018-03-02 06:34:50 INFO  BlockManager:54 â BlockManager stopped
+2018-03-02 06:34:50 INFO  BlockManagerMaster:54 â BlockManagerMaster stopped
+2018-03-02 06:34:50 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 â OutputCommitCoordinator stopped!
+2018-03-02 06:34:50 INFO  Master:54 â 10.0.0.15:43424 got disassociated, removing it.
+2018-03-02 06:34:50 INFO  Master:54 â 10.0.0.15:7001 got disassociated, removing it.
+2018-03-02 06:34:50 INFO  SparkContext:54 â Successfully stopped SparkContext
+2018-03-02 06:34:50 INFO  ShutdownHookManager:54 â Shutdown hook called
+2018-03-02 06:34:50 INFO  ShutdownHookManager:54 â Deleting directory /tmp/spark-390e20d7-1688-4b57-a83f-aaa6a03b80eb
+2018-03-02 06:36:13 ERROR Master:43 â RECEIVED SIGNAL TERM
