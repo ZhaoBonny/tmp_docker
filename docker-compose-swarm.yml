@@ -32,7 +32,7 @@ services:
     hostname: worker
     networks:
       - spark
-    depends_on: 
+    depends_on:
       - master
     deploy:
       mode: global

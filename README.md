@@ -34,6 +34,11 @@ To run `SparkPi`, exec into a container:
     docker exec -it dockerspark_master_1 /bin/bash
     bin/run-example SparkPi 10
 
+## run in swarm cluster
+create docker swarm
+
+in swarm master node, run: 
+    docker stack deploy -c docker-compose-swarm.yml spark
 ## license
 
 MIT
